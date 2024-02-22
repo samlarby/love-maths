@@ -1,4 +1,3 @@
-console.log("connected")
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -17,9 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
+/** 
+ * The main game "loop", called when the script is first loaded
+ * and after the users answer has been processed
+ */
 function runGame(){
-
+    let num1 = Math.floor(Math.random() * 24) + 1;
+    let num2 = Math.floor(Math.random() * 24) + 1;
 }
 
 function checkAnswer(){
